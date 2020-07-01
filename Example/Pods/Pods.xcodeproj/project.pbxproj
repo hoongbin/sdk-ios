@@ -1,0 +1,1177 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0413E346C07452320B9A7D06AED3D227 /* NSInvocation+BTHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 3234EF0B16EA024AE15ED1DEE055DC58 /* NSInvocation+BTHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B2E630731EB11A582BCB74B83CB2265 /* BTReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = DA369AE015369A3133BA697A78DF09E4 /* BTReachability.m */; };
+		0EA222B858F6E9D460A077B05BF9EB9D /* BTAbstractDesignerMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E32869726B38BC9161A16CD6F9E23B5E /* BTAbstractDesignerMessage.m */; };
+		0FE5A380F550A14D28FF88CC94231B0B /* NSString+BTCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 56C729C4E11F73A90AA8CCF2BA70042D /* NSString+BTCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1059A2E212A2670F19638856E66494C2 /* BTAppExtensionDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7D9975744767E5B7DDF3ED6E33C3ED /* BTAppExtensionDataManager.m */; };
+		12BC324B8BE2C2A276543BD9FF78BF89 /* UIViewController+AutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = CAF686D9908CDA6F51D60D9518C85CF9 /* UIViewController+AutoTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		161E4FB8AB7B8D3F1C7E22DCEDC8B5F0 /* BTServerUrl.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FFBE50D672C31A56B74568B74A193CE /* BTServerUrl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EC9C8A4FA89AB731F861FBCB847FCC9 /* NSString+BTCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA768D85C05DE2786337888A3CFAFB /* NSString+BTCommon.m */; };
+		200F5AC8F18BB81A536D61F0354C17F5 /* BTAbstractHeatMapMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 404676DE897CAFDD17A2B8C2B9CC316D /* BTAbstractHeatMapMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2065720A2077004FA4E4D83E6D01F714 /* AutoTrackUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B329A58375B0FD6F89778F720EEFC /* AutoTrackUtils.m */; };
+		29634361F6D5F7994692572C5AA2C4FB /* BTValueTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F984F9D77B335DFBD1989930B9554D0 /* BTValueTransformers.m */; };
+		29BD431048276B331D3E35CB387D7FB4 /* Pods-BetaDataSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBD9891BCA02D5B841EC57F4D5CEE7A1 /* Pods-BetaDataSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AD8E25AB5007EAB221F5C97AA5B4A37 /* BTObjectIdentityProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = CC2990A2A0958DE62EAFEC1D9C6C6F5D /* BTObjectIdentityProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B088FC458DD7ABDDC3C88108641AE23 /* BetaDataExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 27932F48FB3A557B55704F05A3575C27 /* BetaDataExceptionHandler.m */; };
+		2B3B436222B2CC55903718C6033CC504 /* BTAbstractDesignerMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 526673FC3A58A7CCA336810C815F1B9D /* BTAbstractDesignerMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B6B1FE63E29096687B556F8E039E253 /* UIView+AutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = E6B07C7ED2227177531551DBCFBDB3C5 /* UIView+AutoTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BDF4542F624C001B897F812A9B8F19A /* BTObjectSerializerContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C5A6EB84140F962A65EF8341D52A8E9 /* BTObjectSerializerContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C6CECB3F71C6DDE93A08B3B3A9F6B74 /* Pods-BetaDataSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476539ACCEEBBEF9731253FA2BB6E35 /* Pods-BetaDataSDK_Tests-dummy.m */; };
+		2E2837A8D1856C21066BB30AEA415176 /* BTAppExtensionDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BAF1E5982EAB7E8AD362A99F24FC1E /* BTAppExtensionDataManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33B46AA261056B123D4E7597261735E1 /* BTLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 699C45798F8F42DC6F2534C2E9516C2E /* BTLogger.m */; };
+		34AE773446D82D08B6606172231CE336 /* UIDevice+BTCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = AF949DF2A44A761A98F37A2973ACE977 /* UIDevice+BTCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3930B5099A050F2C4C1FD801C65EF884 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3BC792EFFA01F72AC9A2901E0A7EAA68 /* BTObjectSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = A56987214A13B2545762ED5008583B92 /* BTObjectSerializer.m */; };
+		3E136A4AD75C619B8E3040AA9CA45B6A /* UIDevice+BTCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C217F07989186C5E4F0AB3CB54E2B75 /* UIDevice+BTCommon.m */; };
+		3F1ED432EB3CCAE862BE9C2D9B6EFE04 /* NSObject+BetaDataDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B2601E760DD1307141A0894C940B7C30 /* NSObject+BetaDataDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43C7C145D6FBD695718A4464C6A13CB1 /* Pods-BetaDataSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B12D5D96F4BD89174404FDE817AAE30B /* Pods-BetaDataSDK_Example-dummy.m */; };
+		4AB7D805716D1CCF4365D8546A90762F /* BTKeyChainItemWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = CE48B8C15935CC65543D99DFF75E7334 /* BTKeyChainItemWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D5FA74991DF008806818A1E6A03931F /* BTUserConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 715347297B065FEEDB7B8766757D300D /* BTUserConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52E27B483C61AD7C2A8A4059527F76E2 /* UIView+BetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = 1920942E04FC1DA06855C49410A34C4C /* UIView+BetaData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55A96AFC839888523CC793F18A726B58 /* MessageQueueBySqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = DD31380E281ED7948B59ECC53A7F40CE /* MessageQueueBySqlite.m */; };
+		59821EF0882953EB5B3CE1CE65A83358 /* BTConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AB6541BE71E3CBB9A54798E685E98B /* BTConstants.m */; };
+		5B568C9E11CF5CC8B70CEAFC9C4FE1EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5F0B11D311257000B0485C8CAD8E777B /* BTDeviceOrientationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A92E6BC20A214041EBA3F04392D20C79 /* BTDeviceOrientationManager.m */; };
+		5F9775B11A607586380FAD1FF3EB0246 /* UIView+BTHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 1628FA43DB40F5114421BA1FD47120C9 /* UIView+BTHelpers.m */; };
+		602C3173CE53AA8A9E3EFBAF72B502A3 /* NSData+GZIP.h in Headers */ = {isa = PBXBuildFile; fileRef = A6FC6B5DA9F7EF67114FF8D4E90C843D /* NSData+GZIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63D46FD07D3F7B8B10ECD2A58F0BD256 /* BTCommonUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 29FD51446A16630CE1F6A03A225CC5C9 /* BTCommonUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D4E0FF7FF707BF5F1BC7759AAA2DDA6 /* BTObjectSerializerConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = D1638C92249328EBFCBC2C04A0658A42 /* BTObjectSerializerConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FBE66561041ACB90A400B5E5B659A25 /* UIGestureRecognizer+AutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 784255EED2A0AEF2A8D4C63FEAD318A4 /* UIGestureRecognizer+AutoTrack.m */; };
+		70A6D60DE51D6C060AEE136368C3D8F0 /* UIView+AutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = BA972C2D2717A38F2613DF4D391D4A99 /* UIView+AutoTrack.m */; };
+		74F8F5DA8163D1DA1436AB966D3B8C05 /* NSObject+BTSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FFDAC3C632BBFB2AF594CB5CC36A59 /* NSObject+BTSwizzle.m */; };
+		75CF5AA5063B051CA9016F20784509E0 /* BTObjectSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 626B647A4913CFC2B39CC1A5945128C3 /* BTObjectSelector.m */; };
+		77205508414F012C3B94A85FF0F2D09F /* UIApplication+AutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F30C53035CB36AADAF46A71B125F324 /* UIApplication+AutoTrack.m */; };
+		78428EB41E2ECE82F3A26766124AE5AF /* BTObjectIdentityProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A183516E1EB323C4A3ADDD6A6259A /* BTObjectIdentityProvider.m */; };
+		7A8E1D6E7ADC7DF4155CD7875ADEB2B7 /* BTSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = F20AB98D4EEDD7D2CCA71AA396A34100 /* BTSwizzler.m */; };
+		7AC6EFA5632B16913AF78C94F0970820 /* BTDeviceOrientationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B775A35C12C6FAAB419BE25DD513339 /* BTDeviceOrientationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B9588B4B6274FAA6E9E83030AE17017 /* JSONUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B97715189749FA8834F0149319A571D /* JSONUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D75A0470609753E7C5D7C8DAEE029D0 /* BTEnumDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 697055CA17482659AC1CBDCF16443656 /* BTEnumDescription.m */; };
+		7E21EA21B013255B348057A7A8EF1682 /* AutoTrackUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E0B1648BD2FCD25D77D942CF1856B9DE /* AutoTrackUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FA36DC9E42658FEDD06FECBC13595CE /* BTDesignerMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E404B9B5121FD74AA92CA1A38E75D0A /* BTDesignerMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814CE556044B94C8AE4DE38D4AE1331E /* BTPropertyDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 9788BEDD45785E90C325804C748AC1E9 /* BTPropertyDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82A004BC10797543DF65CF5DD960BDE4 /* UIImage+BetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = EA310FDC7C0EC870BA23C902E1F6EC15 /* UIImage+BetaData.m */; };
+		82A18F71108FE7C8D8018920AEB41DFC /* BTObjectSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 09097DD86FA28153C9166D56299C51B0 /* BTObjectSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		843C1F8E31E2FA345ED37420C4A5A450 /* NSData+GZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = ED113DFEBBDFB91C27D1C309F9846A1A /* NSData+GZIP.m */; };
+		8870F9C33C3EAB95C0A5CEEF902C9C99 /* NSThread+BTHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = B2453EE29B9E8FB33D3538AF22963C79 /* NSThread+BTHelpers.m */; };
+		8D53BD57E0F0A4E1245105C46B8FA66B /* BTObjectSerializerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A159CBF86702941DD3D1C0E5983D7463 /* BTObjectSerializerConfig.m */; };
+		9280D2DC9EB3551D526ED8A3864B0471 /* BTHeatMapMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 75583BD79DA917C712BD61775C8FC77A /* BTHeatMapMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		945FE8727E596DFB19420AE0C2C84A39 /* Pods-BetaDataSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97E1F86F5D177C85DA03A92AADBF9533 /* Pods-BetaDataSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		950627C4FD5743EA7FF577EBDEA5E590 /* BetaDataSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A517ED0B80F79D3134E673DC31E83F /* BetaDataSDK.m */; };
+		9F78A2ABC186C7082E5098EC4381AB0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A05871F399797A884C7A9D2C4D2F3196 /* MessageQueueBySqlite.h in Headers */ = {isa = PBXBuildFile; fileRef = 88338D114FA710787E0A86B900247DF3 /* MessageQueueBySqlite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1974819FF9D4B60CF6C82D62D68975C /* BTPropertyDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3268BB0E5106AE838163B56A52C36F /* BTPropertyDescription.m */; };
+		A3F97977B516E8D6ABE0197719055D48 /* BTCommonUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B024AD2C7480CFCA92AE327056E7832A /* BTCommonUtility.m */; };
+		A44B54A1F852A694EB97AEDA468C31AD /* BTLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2EF90681C51EB0A12E15DFBB14AE3C /* BTLocationManager.m */; };
+		A519A893E801516CAF7BE9C339F96672 /* BTApplicationStateSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AFA18148FFB1412EDFBFC34F4756A3 /* BTApplicationStateSerializer.m */; };
+		A89F5B69CF81C0DD715EB208AB93A61E /* BTServerUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 88642721B320DF809EEE780162FB217B /* BTServerUrl.m */; };
+		A94E9B7ABA30A6D95EA01CA8E9A0C9AB /* BTConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E07E441CF4DE64928B9D5088329DA02 /* BTConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB2058D15F8C4A8F4D07AEB5A55BC9C4 /* BetaDataSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F25E02EED04D8B6DD19B2122196DFB5A /* BetaDataSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABC6FFFD372A6E6BE8373FCBC5F92B6D /* UIView+BetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 24065F613B83CDE231469E1A82896B79 /* UIView+BetaData.m */; };
+		ABEAAC746A73C745A45EF000E63D685E /* BTLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F31541BD852E573C69A96FC2F3F5D59 /* BTLocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B15689B9DF520205623EFE589F4931C6 /* BetaDataExceptionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 29BD50BD47AD80876D63895C4BCA0CE8 /* BetaDataExceptionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B38C8E077FE0E332812C98E31C1FF405 /* BTReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B95B9AD679B79C62D5FF344FB15ADA2 /* BTReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B54DE407924C2E9C2477D5958020E13C /* BTTypeDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D43F2937C4734E8F1AF8A248727FDC9 /* BTTypeDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B93BD245418E12CAC63823EA40E255FD /* BTApplicationStateSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = EB4808921FB105A9047E56C64B8BE0F3 /* BTApplicationStateSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA239D48AD7D7DA0A580D098190F3F63 /* NSData+BTCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 887CF18AFC3D76E72849AD0666E76AD8 /* NSData+BTCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA90460D212F545FAAF1D80480FA204 /* BetaDataSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F74123A648D4EE761B695BF774979280 /* BetaDataSDK.bundle */; };
+		BB26F386349AE4EF94CB6639A248E31B /* BTKeyChainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = A07E966A68F221AA703958EAC20FBF17 /* BTKeyChainItemWrapper.m */; };
+		BE2073E3C239B36624C0C081B0E6C6E8 /* NSInvocation+BTHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF9F9C4D6CF4D4C7CD51161135C95F /* NSInvocation+BTHelpers.m */; };
+		C649FF4DFD1FF04306F89478CA374F49 /* BTTypeDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 995229831B51975C358860BD1FD10512 /* BTTypeDescription.m */; };
+		C76507AA72F10FDA1828A294A323F4D2 /* UIView+BTHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = CCE35C23125D1BBC14B91A574484E0F6 /* UIView+BTHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C824A8C985A232BE300C58C26ED344E6 /* BTAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4355CE8A43838D3F5F43F42A1485FE99 /* BTAlertController.m */; };
+		C8AEBDA1ADDB18F3C5EAC16EC725BFE4 /* BetaDataSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F035755ADF5F6F44E59A01B4A77B7EB4 /* BetaDataSDK-dummy.m */; };
+		C9AD8B7C217BADB4DDF73C5A11A652D9 /* NSData+BTCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D20BE01A819AE5488F1F664ECF7120 /* NSData+BTCommon.m */; };
+		CBE74700A898D41B3C0D9AF65540B5FD /* BTSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FE588941599B179EE53D9955F3CD5A /* BTSwizzler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD33765A9EFCB2D9E367A102747F8305 /* BTClassDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE43CFD021FF83436667FB0D6E14353 /* BTClassDescription.m */; };
+		CF15B4EB3528D3041D8788261BB06F46 /* BTObjectSerializerContext.m in Sources */ = {isa = PBXBuildFile; fileRef = EE50781BA44398EA4084A528DE9963D5 /* BTObjectSerializerContext.m */; };
+		D1CD658829CDA91E360FE8E8A1E9B969 /* BTAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E52E0DC3E88BAB302A455C0D594DAE6 /* BTAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D214B9A7FE96E3F9BC579EAAF2B39B09 /* BetaDataSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 489994B4E50CBA610A94CACA12B3085C /* BetaDataSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D42B9DE7A4E1008E6A089E9B9C33661D /* BetaDataSDK+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = E8EBDA5DDC2D8651717D264CB87F0D6A /* BetaDataSDK+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D699E0E5440E90B7774A7B20C6C78189 /* UIGestureRecognizer+AutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = B0F7DFA17F45F0E933C3BAF30DBEF0A6 /* UIGestureRecognizer+AutoTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E06780D7C06D12E449452CE9277B3ECB /* NSThread+BTHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 89314500879D3AC7F47A4B7FC3A4FFF7 /* NSThread+BTHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0A923514AE93B03EAE1303B986A2900 /* BTValueTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = A07DD409DED4440BB3ED6948B62B7ABD /* BTValueTransformers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E482214D70D995B2CACC379F5C4185E8 /* BTUserConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A30AAB124DB5B3A72EE2961927E1FE /* BTUserConstants.m */; };
+		E9F7242F04FFF6013ED613AAC28CE7E2 /* UIApplication+AutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F576DC2B9209C36A263DFE20F2EAD05 /* UIApplication+AutoTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED175804DF31C2EA6C87655B02910E21 /* UIViewController+AutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EE27461D64E805C6AD0D802CDFB4D7 /* UIViewController+AutoTrack.m */; };
+		EE33A6DF407E6D4998ACF63E6038E4BB /* BTObjectSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 07A11F29E98D322ABAE00B5C2E1FA63D /* BTObjectSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEFA67879EFDB6FF5AB629195F8DE612 /* NSObject+BTSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 008C4817C4CE2319B3C4D6DD0061C067 /* NSObject+BTSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEFE13EB27D71474360C09B8F3BCEF4F /* BTLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D93585CBB5EF8C6E226B17BE1112787A /* BTLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFC2EDC648E464B170460D8027A6AD39 /* BTClassDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 8130972B9514BB537D0182ED4BA8967B /* BTClassDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F125AA28444F9FDD328B2448E84F56F1 /* JSONUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 404A458E474559C0EA217CEBF9F96F5C /* JSONUtil.m */; };
+		F13D0E83FAF6C7A95D38DC1A3BCDCAB3 /* BTAbstractHeatMapMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D75EA428B388AD13B07D3D16F2C12F /* BTAbstractHeatMapMessage.m */; };
+		F498C55191BE43F96C92FFD289123C79 /* NSObject+BetaDataDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC2FE36C84E7987AF6C93B8346C2A9C /* NSObject+BetaDataDelegate.m */; };
+		F838E22E07BCA8C7DC887E1152C225A9 /* UIImage+BetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = 627877B6A314BCFA09F5F746CB464F29 /* UIImage+BetaData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB0808CF8CF9FF6061CEF697D3FDCDA8 /* BTEnumDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 92AE91C8B1EED359A19B31E722BFF2AA /* BTEnumDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EEE434F416652D2F784ACBCF1D4E38B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB6547C12982E31B6AA258C02C6FDEDB;
+			remoteInfo = BetaDataSDK;
+		};
+		C768AE903E45283052B3CECE5490ABE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E31FBB4520A17B2AFD7E71968986C0E3;
+			remoteInfo = "Pods-BetaDataSDK_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008C4817C4CE2319B3C4D6DD0061C067 /* NSObject+BTSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+BTSwizzle.h"; sourceTree = "<group>"; };
+		0476539ACCEEBBEF9731253FA2BB6E35 /* Pods-BetaDataSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BetaDataSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		069B7DE48D81F80354346E70F69D5F3A /* Pods-BetaDataSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BetaDataSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		07A11F29E98D322ABAE00B5C2E1FA63D /* BTObjectSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTObjectSelector.h; path = BetaDataSDK/Classes/BTObjectSelector.h; sourceTree = "<group>"; };
+		09097DD86FA28153C9166D56299C51B0 /* BTObjectSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTObjectSerializer.h; path = BetaDataSDK/Classes/BTObjectSerializer.h; sourceTree = "<group>"; };
+		0ADF6B095CB2A4A4C0E8FCED843A2764 /* BetaDataSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BetaDataSDK.release.xcconfig; sourceTree = "<group>"; };
+		0B775A35C12C6FAAB419BE25DD513339 /* BTDeviceOrientationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTDeviceOrientationManager.h; path = BetaDataSDK/Classes/BTDeviceOrientationManager.h; sourceTree = "<group>"; };
+		0D36237BB4F2C339BF8712FDA5CC3C09 /* Pods-BetaDataSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BetaDataSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1628FA43DB40F5114421BA1FD47120C9 /* UIView+BTHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+BTHelpers.m"; sourceTree = "<group>"; };
+		1920942E04FC1DA06855C49410A34C4C /* UIView+BetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+BetaData.h"; sourceTree = "<group>"; };
+		1C5A6EB84140F962A65EF8341D52A8E9 /* BTObjectSerializerContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTObjectSerializerContext.h; path = BetaDataSDK/Classes/BTObjectSerializerContext.h; sourceTree = "<group>"; };
+		1CC1AD921DB9080C48D57826079B26F4 /* BetaDataSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BetaDataSDK.modulemap; sourceTree = "<group>"; };
+		1D2EF90681C51EB0A12E15DFBB14AE3C /* BTLocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BTLocationManager.m; sourceTree = "<group>"; };
+		1DDF9F9C4D6CF4D4C7CD51161135C95F /* NSInvocation+BTHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+BTHelpers.m"; sourceTree = "<group>"; };
+		1E52E0DC3E88BAB302A455C0D594DAE6 /* BTAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTAlertController.h; path = BetaDataSDK/Classes/BTAlertController.h; sourceTree = "<group>"; };
+		20FFDAC3C632BBFB2AF594CB5CC36A59 /* NSObject+BTSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BTSwizzle.m"; sourceTree = "<group>"; };
+		2299D2FBEEED3A57D7B9CC2DB6D3F2FB /* BetaDataSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BetaDataSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		24065F613B83CDE231469E1A82896B79 /* UIView+BetaData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+BetaData.m"; sourceTree = "<group>"; };
+		27932F48FB3A557B55704F05A3575C27 /* BetaDataExceptionHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BetaDataExceptionHandler.m; path = BetaDataSDK/Classes/BetaDataExceptionHandler.m; sourceTree = "<group>"; };
+		29BD50BD47AD80876D63895C4BCA0CE8 /* BetaDataExceptionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BetaDataExceptionHandler.h; path = BetaDataSDK/Classes/BetaDataExceptionHandler.h; sourceTree = "<group>"; };
+		29FD51446A16630CE1F6A03A225CC5C9 /* BTCommonUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BTCommonUtility.h; sourceTree = "<group>"; };
+		2C217F07989186C5E4F0AB3CB54E2B75 /* UIDevice+BTCommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+BTCommon.m"; sourceTree = "<group>"; };
+		2D72A565359796E0AF5CB28F26A9C6C5 /* Pods-BetaDataSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BetaDataSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2DCA768D85C05DE2786337888A3CFAFB /* NSString+BTCommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+BTCommon.m"; sourceTree = "<group>"; };
+		2F984F9D77B335DFBD1989930B9554D0 /* BTValueTransformers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTValueTransformers.m; path = BetaDataSDK/Classes/BTValueTransformers.m; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3234EF0B16EA024AE15ED1DEE055DC58 /* NSInvocation+BTHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+BTHelpers.h"; sourceTree = "<group>"; };
+		32BAF1E5982EAB7E8AD362A99F24FC1E /* BTAppExtensionDataManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTAppExtensionDataManager.h; path = BetaDataSDK/Classes/BTAppExtensionDataManager.h; sourceTree = "<group>"; };
+		3F31541BD852E573C69A96FC2F3F5D59 /* BTLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BTLocationManager.h; sourceTree = "<group>"; };
+		3F3C52455358A0AD9504320867C2CAD1 /* BetaDataSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BetaDataSDK-prefix.pch"; sourceTree = "<group>"; };
+		3FE43CFD021FF83436667FB0D6E14353 /* BTClassDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTClassDescription.m; path = BetaDataSDK/Classes/BTClassDescription.m; sourceTree = "<group>"; };
+		404676DE897CAFDD17A2B8C2B9CC316D /* BTAbstractHeatMapMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTAbstractHeatMapMessage.h; path = BetaDataSDK/Classes/BTAbstractHeatMapMessage.h; sourceTree = "<group>"; };
+		404A458E474559C0EA217CEBF9F96F5C /* JSONUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JSONUtil.m; sourceTree = "<group>"; };
+		424B329A58375B0FD6F89778F720EEFC /* AutoTrackUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AutoTrackUtils.m; sourceTree = "<group>"; };
+		4355CE8A43838D3F5F43F42A1485FE99 /* BTAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTAlertController.m; path = BetaDataSDK/Classes/BTAlertController.m; sourceTree = "<group>"; };
+		489994B4E50CBA610A94CACA12B3085C /* BetaDataSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BetaDataSDK.h; path = BetaDataSDK/Classes/BetaDataSDK.h; sourceTree = "<group>"; };
+		4B95B9AD679B79C62D5FF344FB15ADA2 /* BTReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTReachability.h; path = BetaDataSDK/Classes/BTReachability.h; sourceTree = "<group>"; };
+		4F30C53035CB36AADAF46A71B125F324 /* UIApplication+AutoTrack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+AutoTrack.m"; sourceTree = "<group>"; };
+		526673FC3A58A7CCA336810C815F1B9D /* BTAbstractDesignerMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTAbstractDesignerMessage.h; path = BetaDataSDK/Classes/BTAbstractDesignerMessage.h; sourceTree = "<group>"; };
+		542F4406E270E5D39AE83E026CFBC910 /* Pods-BetaDataSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BetaDataSDK_Example.modulemap"; sourceTree = "<group>"; };
+		54EE27461D64E805C6AD0D802CDFB4D7 /* UIViewController+AutoTrack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AutoTrack.m"; sourceTree = "<group>"; };
+		56C729C4E11F73A90AA8CCF2BA70042D /* NSString+BTCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+BTCommon.h"; sourceTree = "<group>"; };
+		56D75EA428B388AD13B07D3D16F2C12F /* BTAbstractHeatMapMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTAbstractHeatMapMessage.m; path = BetaDataSDK/Classes/BTAbstractHeatMapMessage.m; sourceTree = "<group>"; };
+		58AB6541BE71E3CBB9A54798E685E98B /* BTConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTConstants.m; path = BetaDataSDK/Classes/BTConstants.m; sourceTree = "<group>"; };
+		58E51DC0C6628101548B53FDD7796ABD /* Pods-BetaDataSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BetaDataSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		5D43F2937C4734E8F1AF8A248727FDC9 /* BTTypeDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTTypeDescription.h; path = BetaDataSDK/Classes/BTTypeDescription.h; sourceTree = "<group>"; };
+		5D5A183516E1EB323C4A3ADDD6A6259A /* BTObjectIdentityProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTObjectIdentityProvider.m; path = BetaDataSDK/Classes/BTObjectIdentityProvider.m; sourceTree = "<group>"; };
+		5E07E441CF4DE64928B9D5088329DA02 /* BTConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTConstants.h; path = BetaDataSDK/Classes/BTConstants.h; sourceTree = "<group>"; };
+		5E404B9B5121FD74AA92CA1A38E75D0A /* BTDesignerMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTDesignerMessage.h; path = BetaDataSDK/Classes/BTDesignerMessage.h; sourceTree = "<group>"; };
+		5E57DF3F7A858E143BD28FEDCAE9F438 /* Pods-BetaDataSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BetaDataSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5FB451AE454BF69A2FD9D8097F870094 /* Pods_BetaDataSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BetaDataSDK_Example.framework; path = "Pods-BetaDataSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		626B647A4913CFC2B39CC1A5945128C3 /* BTObjectSelector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTObjectSelector.m; path = BetaDataSDK/Classes/BTObjectSelector.m; sourceTree = "<group>"; };
+		627877B6A314BCFA09F5F746CB464F29 /* UIImage+BetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+BetaData.h"; sourceTree = "<group>"; };
+		641996CA8DBBCC888D8CD219712245BB /* Pods-BetaDataSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BetaDataSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		697055CA17482659AC1CBDCF16443656 /* BTEnumDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTEnumDescription.m; path = BetaDataSDK/Classes/BTEnumDescription.m; sourceTree = "<group>"; };
+		699C45798F8F42DC6F2534C2E9516C2E /* BTLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BTLogger.m; sourceTree = "<group>"; };
+		6C06D46B32603CF63FA8D42D2116EE8C /* Pods-BetaDataSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BetaDataSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		70FE588941599B179EE53D9955F3CD5A /* BTSwizzler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTSwizzler.h; path = BetaDataSDK/Classes/BTSwizzler.h; sourceTree = "<group>"; };
+		715347297B065FEEDB7B8766757D300D /* BTUserConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUserConstants.h; path = BetaDataSDK/Classes/BTUserConstants.h; sourceTree = "<group>"; };
+		75583BD79DA917C712BD61775C8FC77A /* BTHeatMapMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTHeatMapMessage.h; path = BetaDataSDK/Classes/BTHeatMapMessage.h; sourceTree = "<group>"; };
+		77AFA18148FFB1412EDFBFC34F4756A3 /* BTApplicationStateSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTApplicationStateSerializer.m; path = BetaDataSDK/Classes/BTApplicationStateSerializer.m; sourceTree = "<group>"; };
+		784255EED2A0AEF2A8D4C63FEAD318A4 /* UIGestureRecognizer+AutoTrack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+AutoTrack.m"; sourceTree = "<group>"; };
+		78D20BE01A819AE5488F1F664ECF7120 /* NSData+BTCommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+BTCommon.m"; sourceTree = "<group>"; };
+		7B97715189749FA8834F0149319A571D /* JSONUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JSONUtil.h; sourceTree = "<group>"; };
+		7C77DB68C7DCB225D9B75454B69CC312 /* Pods-BetaDataSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BetaDataSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7E7D9975744767E5B7DDF3ED6E33C3ED /* BTAppExtensionDataManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTAppExtensionDataManager.m; path = BetaDataSDK/Classes/BTAppExtensionDataManager.m; sourceTree = "<group>"; };
+		7FE2DAF527CF3AEBC659EA7AE39B9448 /* BetaDataSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BetaDataSDK.debug.xcconfig; sourceTree = "<group>"; };
+		7FFBE50D672C31A56B74568B74A193CE /* BTServerUrl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTServerUrl.h; path = BetaDataSDK/Classes/BTServerUrl.h; sourceTree = "<group>"; };
+		8130972B9514BB537D0182ED4BA8967B /* BTClassDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTClassDescription.h; path = BetaDataSDK/Classes/BTClassDescription.h; sourceTree = "<group>"; };
+		88338D114FA710787E0A86B900247DF3 /* MessageQueueBySqlite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MessageQueueBySqlite.h; path = BetaDataSDK/Classes/MessageQueueBySqlite.h; sourceTree = "<group>"; };
+		88642721B320DF809EEE780162FB217B /* BTServerUrl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTServerUrl.m; path = BetaDataSDK/Classes/BTServerUrl.m; sourceTree = "<group>"; };
+		887CF18AFC3D76E72849AD0666E76AD8 /* NSData+BTCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+BTCommon.h"; sourceTree = "<group>"; };
+		89314500879D3AC7F47A4B7FC3A4FFF7 /* NSThread+BTHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSThread+BTHelpers.h"; sourceTree = "<group>"; };
+		89A30AAB124DB5B3A72EE2961927E1FE /* BTUserConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUserConstants.m; path = BetaDataSDK/Classes/BTUserConstants.m; sourceTree = "<group>"; };
+		8B9E80D690354B249AE13B8B6D316FCB /* BetaDataSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BetaDataSDK-Info.plist"; sourceTree = "<group>"; };
+		8F576DC2B9209C36A263DFE20F2EAD05 /* UIApplication+AutoTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIApplication+AutoTrack.h"; sourceTree = "<group>"; };
+		92AE91C8B1EED359A19B31E722BFF2AA /* BTEnumDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTEnumDescription.h; path = BetaDataSDK/Classes/BTEnumDescription.h; sourceTree = "<group>"; };
+		9788BEDD45785E90C325804C748AC1E9 /* BTPropertyDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTPropertyDescription.h; path = BetaDataSDK/Classes/BTPropertyDescription.h; sourceTree = "<group>"; };
+		97E1F86F5D177C85DA03A92AADBF9533 /* Pods-BetaDataSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BetaDataSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		987B0FEB498D17642501A8AF7743BC63 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		995229831B51975C358860BD1FD10512 /* BTTypeDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTTypeDescription.m; path = BetaDataSDK/Classes/BTTypeDescription.m; sourceTree = "<group>"; };
+		9CC2FE36C84E7987AF6C93B8346C2A9C /* NSObject+BetaDataDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BetaDataDelegate.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A07DD409DED4440BB3ED6948B62B7ABD /* BTValueTransformers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTValueTransformers.h; path = BetaDataSDK/Classes/BTValueTransformers.h; sourceTree = "<group>"; };
+		A07E966A68F221AA703958EAC20FBF17 /* BTKeyChainItemWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTKeyChainItemWrapper.m; path = BetaDataSDK/Classes/BTKeyChainItemWrapper.m; sourceTree = "<group>"; };
+		A159CBF86702941DD3D1C0E5983D7463 /* BTObjectSerializerConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTObjectSerializerConfig.m; path = BetaDataSDK/Classes/BTObjectSerializerConfig.m; sourceTree = "<group>"; };
+		A56987214A13B2545762ED5008583B92 /* BTObjectSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTObjectSerializer.m; path = BetaDataSDK/Classes/BTObjectSerializer.m; sourceTree = "<group>"; };
+		A657BEC47BE092AFED8169EA41F43B0F /* Pods-BetaDataSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BetaDataSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A6FC6B5DA9F7EF67114FF8D4E90C843D /* NSData+GZIP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+GZIP.h"; sourceTree = "<group>"; };
+		A92E6BC20A214041EBA3F04392D20C79 /* BTDeviceOrientationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTDeviceOrientationManager.m; path = BetaDataSDK/Classes/BTDeviceOrientationManager.m; sourceTree = "<group>"; };
+		AE3268BB0E5106AE838163B56A52C36F /* BTPropertyDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTPropertyDescription.m; path = BetaDataSDK/Classes/BTPropertyDescription.m; sourceTree = "<group>"; };
+		AF949DF2A44A761A98F37A2973ACE977 /* UIDevice+BTCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+BTCommon.h"; sourceTree = "<group>"; };
+		B024AD2C7480CFCA92AE327056E7832A /* BTCommonUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BTCommonUtility.m; sourceTree = "<group>"; };
+		B0F7DFA17F45F0E933C3BAF30DBEF0A6 /* UIGestureRecognizer+AutoTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+AutoTrack.h"; sourceTree = "<group>"; };
+		B12D5D96F4BD89174404FDE817AAE30B /* Pods-BetaDataSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BetaDataSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		B2453EE29B9E8FB33D3538AF22963C79 /* NSThread+BTHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSThread+BTHelpers.m"; sourceTree = "<group>"; };
+		B2601E760DD1307141A0894C940B7C30 /* NSObject+BetaDataDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+BetaDataDelegate.h"; sourceTree = "<group>"; };
+		B3A517ED0B80F79D3134E673DC31E83F /* BetaDataSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BetaDataSDK.m; path = BetaDataSDK/Classes/BetaDataSDK.m; sourceTree = "<group>"; };
+		B53F1D02C962E46EFCA691E31E19CE89 /* BetaDataSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BetaDataSDK.framework; path = BetaDataSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6BCF7ED063A68EF22BA64CB6B96C33D /* Pods-BetaDataSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BetaDataSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		BA972C2D2717A38F2613DF4D391D4A99 /* UIView+AutoTrack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoTrack.m"; sourceTree = "<group>"; };
+		CAF686D9908CDA6F51D60D9518C85CF9 /* UIViewController+AutoTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AutoTrack.h"; sourceTree = "<group>"; };
+		CC2990A2A0958DE62EAFEC1D9C6C6F5D /* BTObjectIdentityProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTObjectIdentityProvider.h; path = BetaDataSDK/Classes/BTObjectIdentityProvider.h; sourceTree = "<group>"; };
+		CCE35C23125D1BBC14B91A574484E0F6 /* UIView+BTHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+BTHelpers.h"; sourceTree = "<group>"; };
+		CD9A9817DBC71F6CC92C8A4DAE34B4C0 /* Pods-BetaDataSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BetaDataSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		CE48B8C15935CC65543D99DFF75E7334 /* BTKeyChainItemWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTKeyChainItemWrapper.h; path = BetaDataSDK/Classes/BTKeyChainItemWrapper.h; sourceTree = "<group>"; };
+		D1638C92249328EBFCBC2C04A0658A42 /* BTObjectSerializerConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTObjectSerializerConfig.h; path = BetaDataSDK/Classes/BTObjectSerializerConfig.h; sourceTree = "<group>"; };
+		D1D91E865B9C8061D5385A422E01DF25 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D53CAFA5BF0C0FD17584FEA245CD2920 /* Pods-BetaDataSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BetaDataSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D93585CBB5EF8C6E226B17BE1112787A /* BTLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BTLogger.h; sourceTree = "<group>"; };
+		DA369AE015369A3133BA697A78DF09E4 /* BTReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTReachability.m; path = BetaDataSDK/Classes/BTReachability.m; sourceTree = "<group>"; };
+		DD31380E281ED7948B59ECC53A7F40CE /* MessageQueueBySqlite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MessageQueueBySqlite.m; path = BetaDataSDK/Classes/MessageQueueBySqlite.m; sourceTree = "<group>"; };
+		E0B1648BD2FCD25D77D942CF1856B9DE /* AutoTrackUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AutoTrackUtils.h; sourceTree = "<group>"; };
+		E32869726B38BC9161A16CD6F9E23B5E /* BTAbstractDesignerMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTAbstractDesignerMessage.m; path = BetaDataSDK/Classes/BTAbstractDesignerMessage.m; sourceTree = "<group>"; };
+		E6B07C7ED2227177531551DBCFBDB3C5 /* UIView+AutoTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoTrack.h"; sourceTree = "<group>"; };
+		E8EBDA5DDC2D8651717D264CB87F0D6A /* BetaDataSDK+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BetaDataSDK+Private.h"; path = "BetaDataSDK/Classes/BetaDataSDK+Private.h"; sourceTree = "<group>"; };
+		EA310FDC7C0EC870BA23C902E1F6EC15 /* UIImage+BetaData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BetaData.m"; sourceTree = "<group>"; };
+		EAC166BAB8112122F3D0D7E82290FE33 /* Pods_BetaDataSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BetaDataSDK_Tests.framework; path = "Pods-BetaDataSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4808921FB105A9047E56C64B8BE0F3 /* BTApplicationStateSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTApplicationStateSerializer.h; path = BetaDataSDK/Classes/BTApplicationStateSerializer.h; sourceTree = "<group>"; };
+		EBD9891BCA02D5B841EC57F4D5CEE7A1 /* Pods-BetaDataSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BetaDataSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		ED113DFEBBDFB91C27D1C309F9846A1A /* NSData+GZIP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+GZIP.m"; sourceTree = "<group>"; };
+		EE50781BA44398EA4084A528DE9963D5 /* BTObjectSerializerContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTObjectSerializerContext.m; path = BetaDataSDK/Classes/BTObjectSerializerContext.m; sourceTree = "<group>"; };
+		F035755ADF5F6F44E59A01B4A77B7EB4 /* BetaDataSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BetaDataSDK-dummy.m"; sourceTree = "<group>"; };
+		F20AB98D4EEDD7D2CCA71AA396A34100 /* BTSwizzler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTSwizzler.m; path = BetaDataSDK/Classes/BTSwizzler.m; sourceTree = "<group>"; };
+		F25E02EED04D8B6DD19B2122196DFB5A /* BetaDataSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BetaDataSDK-umbrella.h"; sourceTree = "<group>"; };
+		F74123A648D4EE761B695BF774979280 /* BetaDataSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BetaDataSDK.bundle; path = BetaDataSDK/Assets/BetaDataSDK.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70A5F9A1313BAAC3AE8120CA3BA092E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3930B5099A050F2C4C1FD801C65EF884 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B629C996D2B9BA26637CF71AAFE77FC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B568C9E11CF5CC8B70CEAFC9C4FE1EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C81D577F4F4D8E83446FFBE2EA3718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F78A2ABC186C7082E5098EC4381AB0B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B31A1E059FE608F455B325FCE1A335B /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				E0B1648BD2FCD25D77D942CF1856B9DE /* AutoTrackUtils.h */,
+				424B329A58375B0FD6F89778F720EEFC /* AutoTrackUtils.m */,
+				29FD51446A16630CE1F6A03A225CC5C9 /* BTCommonUtility.h */,
+				B024AD2C7480CFCA92AE327056E7832A /* BTCommonUtility.m */,
+				3F31541BD852E573C69A96FC2F3F5D59 /* BTLocationManager.h */,
+				1D2EF90681C51EB0A12E15DFBB14AE3C /* BTLocationManager.m */,
+				D93585CBB5EF8C6E226B17BE1112787A /* BTLogger.h */,
+				699C45798F8F42DC6F2534C2E9516C2E /* BTLogger.m */,
+				7B97715189749FA8834F0149319A571D /* JSONUtil.h */,
+				404A458E474559C0EA217CEBF9F96F5C /* JSONUtil.m */,
+			);
+			name = Tool;
+			path = BetaDataSDK/Classes/Tool;
+			sourceTree = "<group>";
+		};
+		2DA25EB09623DBB4E87C8DFF97303BBE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54969978BDB4DCF92A8C613EA0425744 /* BetaDataSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4358414F8238B5A61ABA60FBA02D0DEE /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				887CF18AFC3D76E72849AD0666E76AD8 /* NSData+BTCommon.h */,
+				78D20BE01A819AE5488F1F664ECF7120 /* NSData+BTCommon.m */,
+				3234EF0B16EA024AE15ED1DEE055DC58 /* NSInvocation+BTHelpers.h */,
+				1DDF9F9C4D6CF4D4C7CD51161135C95F /* NSInvocation+BTHelpers.m */,
+				B2601E760DD1307141A0894C940B7C30 /* NSObject+BetaDataDelegate.h */,
+				9CC2FE36C84E7987AF6C93B8346C2A9C /* NSObject+BetaDataDelegate.m */,
+				008C4817C4CE2319B3C4D6DD0061C067 /* NSObject+BTSwizzle.h */,
+				20FFDAC3C632BBFB2AF594CB5CC36A59 /* NSObject+BTSwizzle.m */,
+				56C729C4E11F73A90AA8CCF2BA70042D /* NSString+BTCommon.h */,
+				2DCA768D85C05DE2786337888A3CFAFB /* NSString+BTCommon.m */,
+				89314500879D3AC7F47A4B7FC3A4FFF7 /* NSThread+BTHelpers.h */,
+				B2453EE29B9E8FB33D3538AF22963C79 /* NSThread+BTHelpers.m */,
+				8F576DC2B9209C36A263DFE20F2EAD05 /* UIApplication+AutoTrack.h */,
+				4F30C53035CB36AADAF46A71B125F324 /* UIApplication+AutoTrack.m */,
+				AF949DF2A44A761A98F37A2973ACE977 /* UIDevice+BTCommon.h */,
+				2C217F07989186C5E4F0AB3CB54E2B75 /* UIDevice+BTCommon.m */,
+				B0F7DFA17F45F0E933C3BAF30DBEF0A6 /* UIGestureRecognizer+AutoTrack.h */,
+				784255EED2A0AEF2A8D4C63FEAD318A4 /* UIGestureRecognizer+AutoTrack.m */,
+				627877B6A314BCFA09F5F746CB464F29 /* UIImage+BetaData.h */,
+				EA310FDC7C0EC870BA23C902E1F6EC15 /* UIImage+BetaData.m */,
+				E6B07C7ED2227177531551DBCFBDB3C5 /* UIView+AutoTrack.h */,
+				BA972C2D2717A38F2613DF4D391D4A99 /* UIView+AutoTrack.m */,
+				1920942E04FC1DA06855C49410A34C4C /* UIView+BetaData.h */,
+				24065F613B83CDE231469E1A82896B79 /* UIView+BetaData.m */,
+				CCE35C23125D1BBC14B91A574484E0F6 /* UIView+BTHelpers.h */,
+				1628FA43DB40F5114421BA1FD47120C9 /* UIView+BTHelpers.m */,
+				CAF686D9908CDA6F51D60D9518C85CF9 /* UIViewController+AutoTrack.h */,
+				54EE27461D64E805C6AD0D802CDFB4D7 /* UIViewController+AutoTrack.m */,
+			);
+			name = Categories;
+			path = BetaDataSDK/Classes/Categories;
+			sourceTree = "<group>";
+		};
+		54969978BDB4DCF92A8C613EA0425744 /* BetaDataSDK */ = {
+			isa = PBXGroup;
+			children = (
+				29BD50BD47AD80876D63895C4BCA0CE8 /* BetaDataExceptionHandler.h */,
+				27932F48FB3A557B55704F05A3575C27 /* BetaDataExceptionHandler.m */,
+				489994B4E50CBA610A94CACA12B3085C /* BetaDataSDK.h */,
+				B3A517ED0B80F79D3134E673DC31E83F /* BetaDataSDK.m */,
+				E8EBDA5DDC2D8651717D264CB87F0D6A /* BetaDataSDK+Private.h */,
+				526673FC3A58A7CCA336810C815F1B9D /* BTAbstractDesignerMessage.h */,
+				E32869726B38BC9161A16CD6F9E23B5E /* BTAbstractDesignerMessage.m */,
+				404676DE897CAFDD17A2B8C2B9CC316D /* BTAbstractHeatMapMessage.h */,
+				56D75EA428B388AD13B07D3D16F2C12F /* BTAbstractHeatMapMessage.m */,
+				1E52E0DC3E88BAB302A455C0D594DAE6 /* BTAlertController.h */,
+				4355CE8A43838D3F5F43F42A1485FE99 /* BTAlertController.m */,
+				32BAF1E5982EAB7E8AD362A99F24FC1E /* BTAppExtensionDataManager.h */,
+				7E7D9975744767E5B7DDF3ED6E33C3ED /* BTAppExtensionDataManager.m */,
+				EB4808921FB105A9047E56C64B8BE0F3 /* BTApplicationStateSerializer.h */,
+				77AFA18148FFB1412EDFBFC34F4756A3 /* BTApplicationStateSerializer.m */,
+				8130972B9514BB537D0182ED4BA8967B /* BTClassDescription.h */,
+				3FE43CFD021FF83436667FB0D6E14353 /* BTClassDescription.m */,
+				5E07E441CF4DE64928B9D5088329DA02 /* BTConstants.h */,
+				58AB6541BE71E3CBB9A54798E685E98B /* BTConstants.m */,
+				5E404B9B5121FD74AA92CA1A38E75D0A /* BTDesignerMessage.h */,
+				0B775A35C12C6FAAB419BE25DD513339 /* BTDeviceOrientationManager.h */,
+				A92E6BC20A214041EBA3F04392D20C79 /* BTDeviceOrientationManager.m */,
+				92AE91C8B1EED359A19B31E722BFF2AA /* BTEnumDescription.h */,
+				697055CA17482659AC1CBDCF16443656 /* BTEnumDescription.m */,
+				75583BD79DA917C712BD61775C8FC77A /* BTHeatMapMessage.h */,
+				CE48B8C15935CC65543D99DFF75E7334 /* BTKeyChainItemWrapper.h */,
+				A07E966A68F221AA703958EAC20FBF17 /* BTKeyChainItemWrapper.m */,
+				CC2990A2A0958DE62EAFEC1D9C6C6F5D /* BTObjectIdentityProvider.h */,
+				5D5A183516E1EB323C4A3ADDD6A6259A /* BTObjectIdentityProvider.m */,
+				07A11F29E98D322ABAE00B5C2E1FA63D /* BTObjectSelector.h */,
+				626B647A4913CFC2B39CC1A5945128C3 /* BTObjectSelector.m */,
+				09097DD86FA28153C9166D56299C51B0 /* BTObjectSerializer.h */,
+				A56987214A13B2545762ED5008583B92 /* BTObjectSerializer.m */,
+				D1638C92249328EBFCBC2C04A0658A42 /* BTObjectSerializerConfig.h */,
+				A159CBF86702941DD3D1C0E5983D7463 /* BTObjectSerializerConfig.m */,
+				1C5A6EB84140F962A65EF8341D52A8E9 /* BTObjectSerializerContext.h */,
+				EE50781BA44398EA4084A528DE9963D5 /* BTObjectSerializerContext.m */,
+				9788BEDD45785E90C325804C748AC1E9 /* BTPropertyDescription.h */,
+				AE3268BB0E5106AE838163B56A52C36F /* BTPropertyDescription.m */,
+				4B95B9AD679B79C62D5FF344FB15ADA2 /* BTReachability.h */,
+				DA369AE015369A3133BA697A78DF09E4 /* BTReachability.m */,
+				7FFBE50D672C31A56B74568B74A193CE /* BTServerUrl.h */,
+				88642721B320DF809EEE780162FB217B /* BTServerUrl.m */,
+				70FE588941599B179EE53D9955F3CD5A /* BTSwizzler.h */,
+				F20AB98D4EEDD7D2CCA71AA396A34100 /* BTSwizzler.m */,
+				5D43F2937C4734E8F1AF8A248727FDC9 /* BTTypeDescription.h */,
+				995229831B51975C358860BD1FD10512 /* BTTypeDescription.m */,
+				715347297B065FEEDB7B8766757D300D /* BTUserConstants.h */,
+				89A30AAB124DB5B3A72EE2961927E1FE /* BTUserConstants.m */,
+				A07DD409DED4440BB3ED6948B62B7ABD /* BTValueTransformers.h */,
+				2F984F9D77B335DFBD1989930B9554D0 /* BTValueTransformers.m */,
+				88338D114FA710787E0A86B900247DF3 /* MessageQueueBySqlite.h */,
+				DD31380E281ED7948B59ECC53A7F40CE /* MessageQueueBySqlite.m */,
+				4358414F8238B5A61ABA60FBA02D0DEE /* Categories */,
+				5E09F71687B8F172B2D8909E256BBBAD /* GZIP */,
+				D1DC2424597F052A9B6D41E6E79D6C2D /* Pod */,
+				96E56915F1DA8073CDDC6C41DA6CED81 /* Resources */,
+				8EEEE53E24D5A96DD437164643969A3E /* Support Files */,
+				0B31A1E059FE608F455B325FCE1A335B /* Tool */,
+			);
+			name = BetaDataSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5E09F71687B8F172B2D8909E256BBBAD /* GZIP */ = {
+			isa = PBXGroup;
+			children = (
+				A6FC6B5DA9F7EF67114FF8D4E90C843D /* NSData+GZIP.h */,
+				ED113DFEBBDFB91C27D1C309F9846A1A /* NSData+GZIP.m */,
+			);
+			name = GZIP;
+			path = BetaDataSDK/Classes/GZIP;
+			sourceTree = "<group>";
+		};
+		8EEEE53E24D5A96DD437164643969A3E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CC1AD921DB9080C48D57826079B26F4 /* BetaDataSDK.modulemap */,
+				F035755ADF5F6F44E59A01B4A77B7EB4 /* BetaDataSDK-dummy.m */,
+				8B9E80D690354B249AE13B8B6D316FCB /* BetaDataSDK-Info.plist */,
+				3F3C52455358A0AD9504320867C2CAD1 /* BetaDataSDK-prefix.pch */,
+				F25E02EED04D8B6DD19B2122196DFB5A /* BetaDataSDK-umbrella.h */,
+				7FE2DAF527CF3AEBC659EA7AE39B9448 /* BetaDataSDK.debug.xcconfig */,
+				0ADF6B095CB2A4A4C0E8FCED843A2764 /* BetaDataSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BetaDataSDK";
+			sourceTree = "<group>";
+		};
+		96E56915F1DA8073CDDC6C41DA6CED81 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F74123A648D4EE761B695BF774979280 /* BetaDataSDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		97629E31C6BA0B025CB4D178BD08CC4D /* Pods-BetaDataSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				542F4406E270E5D39AE83E026CFBC910 /* Pods-BetaDataSDK_Example.modulemap */,
+				6C06D46B32603CF63FA8D42D2116EE8C /* Pods-BetaDataSDK_Example-acknowledgements.markdown */,
+				0D36237BB4F2C339BF8712FDA5CC3C09 /* Pods-BetaDataSDK_Example-acknowledgements.plist */,
+				B12D5D96F4BD89174404FDE817AAE30B /* Pods-BetaDataSDK_Example-dummy.m */,
+				069B7DE48D81F80354346E70F69D5F3A /* Pods-BetaDataSDK_Example-frameworks.sh */,
+				CD9A9817DBC71F6CC92C8A4DAE34B4C0 /* Pods-BetaDataSDK_Example-Info.plist */,
+				97E1F86F5D177C85DA03A92AADBF9533 /* Pods-BetaDataSDK_Example-umbrella.h */,
+				5E57DF3F7A858E143BD28FEDCAE9F438 /* Pods-BetaDataSDK_Example.debug.xcconfig */,
+				2D72A565359796E0AF5CB28F26A9C6C5 /* Pods-BetaDataSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-BetaDataSDK_Example";
+			path = "Target Support Files/Pods-BetaDataSDK_Example";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C204E3966AFA010AF89BA7AEB9D8C501 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				97629E31C6BA0B025CB4D178BD08CC4D /* Pods-BetaDataSDK_Example */,
+				C50E09808CDE6EFFAC79F500F11BA7A0 /* Pods-BetaDataSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C50E09808CDE6EFFAC79F500F11BA7A0 /* Pods-BetaDataSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B6BCF7ED063A68EF22BA64CB6B96C33D /* Pods-BetaDataSDK_Tests.modulemap */,
+				641996CA8DBBCC888D8CD219712245BB /* Pods-BetaDataSDK_Tests-acknowledgements.markdown */,
+				A657BEC47BE092AFED8169EA41F43B0F /* Pods-BetaDataSDK_Tests-acknowledgements.plist */,
+				0476539ACCEEBBEF9731253FA2BB6E35 /* Pods-BetaDataSDK_Tests-dummy.m */,
+				58E51DC0C6628101548B53FDD7796ABD /* Pods-BetaDataSDK_Tests-Info.plist */,
+				EBD9891BCA02D5B841EC57F4D5CEE7A1 /* Pods-BetaDataSDK_Tests-umbrella.h */,
+				D53CAFA5BF0C0FD17584FEA245CD2920 /* Pods-BetaDataSDK_Tests.debug.xcconfig */,
+				7C77DB68C7DCB225D9B75454B69CC312 /* Pods-BetaDataSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-BetaDataSDK_Tests";
+			path = "Target Support Files/Pods-BetaDataSDK_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2DA25EB09623DBB4E87C8DFF97303BBE /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D547E41EE890099209D3C10C7E11440A /* Products */,
+				C204E3966AFA010AF89BA7AEB9D8C501 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1DC2424597F052A9B6D41E6E79D6C2D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2299D2FBEEED3A57D7B9CC2DB6D3F2FB /* BetaDataSDK.podspec */,
+				D1D91E865B9C8061D5385A422E01DF25 /* LICENSE */,
+				987B0FEB498D17642501A8AF7743BC63 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D547E41EE890099209D3C10C7E11440A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B53F1D02C962E46EFCA691E31E19CE89 /* BetaDataSDK.framework */,
+				5FB451AE454BF69A2FD9D8097F870094 /* Pods_BetaDataSDK_Example.framework */,
+				EAC166BAB8112122F3D0D7E82290FE33 /* Pods_BetaDataSDK_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5FA5A4B6F56471CEF925C799B07A9A0E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945FE8727E596DFB19420AE0C2C84A39 /* Pods-BetaDataSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68C89B833054B88B06295B5259CF8E85 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E21EA21B013255B348057A7A8EF1682 /* AutoTrackUtils.h in Headers */,
+				B15689B9DF520205623EFE589F4931C6 /* BetaDataExceptionHandler.h in Headers */,
+				D42B9DE7A4E1008E6A089E9B9C33661D /* BetaDataSDK+Private.h in Headers */,
+				AB2058D15F8C4A8F4D07AEB5A55BC9C4 /* BetaDataSDK-umbrella.h in Headers */,
+				D214B9A7FE96E3F9BC579EAAF2B39B09 /* BetaDataSDK.h in Headers */,
+				2B3B436222B2CC55903718C6033CC504 /* BTAbstractDesignerMessage.h in Headers */,
+				200F5AC8F18BB81A536D61F0354C17F5 /* BTAbstractHeatMapMessage.h in Headers */,
+				D1CD658829CDA91E360FE8E8A1E9B969 /* BTAlertController.h in Headers */,
+				2E2837A8D1856C21066BB30AEA415176 /* BTAppExtensionDataManager.h in Headers */,
+				B93BD245418E12CAC63823EA40E255FD /* BTApplicationStateSerializer.h in Headers */,
+				EFC2EDC648E464B170460D8027A6AD39 /* BTClassDescription.h in Headers */,
+				63D46FD07D3F7B8B10ECD2A58F0BD256 /* BTCommonUtility.h in Headers */,
+				A94E9B7ABA30A6D95EA01CA8E9A0C9AB /* BTConstants.h in Headers */,
+				7FA36DC9E42658FEDD06FECBC13595CE /* BTDesignerMessage.h in Headers */,
+				7AC6EFA5632B16913AF78C94F0970820 /* BTDeviceOrientationManager.h in Headers */,
+				FB0808CF8CF9FF6061CEF697D3FDCDA8 /* BTEnumDescription.h in Headers */,
+				9280D2DC9EB3551D526ED8A3864B0471 /* BTHeatMapMessage.h in Headers */,
+				4AB7D805716D1CCF4365D8546A90762F /* BTKeyChainItemWrapper.h in Headers */,
+				ABEAAC746A73C745A45EF000E63D685E /* BTLocationManager.h in Headers */,
+				EEFE13EB27D71474360C09B8F3BCEF4F /* BTLogger.h in Headers */,
+				2AD8E25AB5007EAB221F5C97AA5B4A37 /* BTObjectIdentityProvider.h in Headers */,
+				EE33A6DF407E6D4998ACF63E6038E4BB /* BTObjectSelector.h in Headers */,
+				82A18F71108FE7C8D8018920AEB41DFC /* BTObjectSerializer.h in Headers */,
+				6D4E0FF7FF707BF5F1BC7759AAA2DDA6 /* BTObjectSerializerConfig.h in Headers */,
+				2BDF4542F624C001B897F812A9B8F19A /* BTObjectSerializerContext.h in Headers */,
+				814CE556044B94C8AE4DE38D4AE1331E /* BTPropertyDescription.h in Headers */,
+				B38C8E077FE0E332812C98E31C1FF405 /* BTReachability.h in Headers */,
+				161E4FB8AB7B8D3F1C7E22DCEDC8B5F0 /* BTServerUrl.h in Headers */,
+				CBE74700A898D41B3C0D9AF65540B5FD /* BTSwizzler.h in Headers */,
+				B54DE407924C2E9C2477D5958020E13C /* BTTypeDescription.h in Headers */,
+				4D5FA74991DF008806818A1E6A03931F /* BTUserConstants.h in Headers */,
+				E0A923514AE93B03EAE1303B986A2900 /* BTValueTransformers.h in Headers */,
+				7B9588B4B6274FAA6E9E83030AE17017 /* JSONUtil.h in Headers */,
+				A05871F399797A884C7A9D2C4D2F3196 /* MessageQueueBySqlite.h in Headers */,
+				BA239D48AD7D7DA0A580D098190F3F63 /* NSData+BTCommon.h in Headers */,
+				602C3173CE53AA8A9E3EFBAF72B502A3 /* NSData+GZIP.h in Headers */,
+				0413E346C07452320B9A7D06AED3D227 /* NSInvocation+BTHelpers.h in Headers */,
+				3F1ED432EB3CCAE862BE9C2D9B6EFE04 /* NSObject+BetaDataDelegate.h in Headers */,
+				EEFA67879EFDB6FF5AB629195F8DE612 /* NSObject+BTSwizzle.h in Headers */,
+				0FE5A380F550A14D28FF88CC94231B0B /* NSString+BTCommon.h in Headers */,
+				E06780D7C06D12E449452CE9277B3ECB /* NSThread+BTHelpers.h in Headers */,
+				E9F7242F04FFF6013ED613AAC28CE7E2 /* UIApplication+AutoTrack.h in Headers */,
+				34AE773446D82D08B6606172231CE336 /* UIDevice+BTCommon.h in Headers */,
+				D699E0E5440E90B7774A7B20C6C78189 /* UIGestureRecognizer+AutoTrack.h in Headers */,
+				F838E22E07BCA8C7DC887E1152C225A9 /* UIImage+BetaData.h in Headers */,
+				2B6B1FE63E29096687B556F8E039E253 /* UIView+AutoTrack.h in Headers */,
+				52E27B483C61AD7C2A8A4059527F76E2 /* UIView+BetaData.h in Headers */,
+				C76507AA72F10FDA1828A294A323F4D2 /* UIView+BTHelpers.h in Headers */,
+				12BC324B8BE2C2A276543BD9FF78BF89 /* UIViewController+AutoTrack.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92200323FEF2BA0E56FC0C9F13CCC470 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29BD431048276B331D3E35CB387D7FB4 /* Pods-BetaDataSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BB6547C12982E31B6AA258C02C6FDEDB /* BetaDataSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F1FDD5BF7ACE2D99264AA812E592CE8 /* Build configuration list for PBXNativeTarget "BetaDataSDK" */;
+			buildPhases = (
+				68C89B833054B88B06295B5259CF8E85 /* Headers */,
+				A305F4B1E955FF32EC5C58E8A4AEAD3A /* Sources */,
+				B629C996D2B9BA26637CF71AAFE77FC0 /* Frameworks */,
+				CADD937359A54B08F52DB192F77DDBE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetaDataSDK;
+			productName = BetaDataSDK;
+			productReference = B53F1D02C962E46EFCA691E31E19CE89 /* BetaDataSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E31FBB4520A17B2AFD7E71968986C0E3 /* Pods-BetaDataSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05C0FC9DF23664F3DD6FC293760293F5 /* Build configuration list for PBXNativeTarget "Pods-BetaDataSDK_Example" */;
+			buildPhases = (
+				5FA5A4B6F56471CEF925C799B07A9A0E /* Headers */,
+				D3CEFF40D2F23FD96EC17133C070B184 /* Sources */,
+				E7C81D577F4F4D8E83446FFBE2EA3718 /* Frameworks */,
+				663EE04927ED81DED1DDAED665927C78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6FB1248BD4B5ACCDBA5D398A79B7E7A /* PBXTargetDependency */,
+			);
+			name = "Pods-BetaDataSDK_Example";
+			productName = "Pods-BetaDataSDK_Example";
+			productReference = 5FB451AE454BF69A2FD9D8097F870094 /* Pods_BetaDataSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E4B3157A027966D762F407B0CA28D0A3 /* Pods-BetaDataSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FF542FDECD85BFFFBFE11FB9699F5A1 /* Build configuration list for PBXNativeTarget "Pods-BetaDataSDK_Tests" */;
+			buildPhases = (
+				92200323FEF2BA0E56FC0C9F13CCC470 /* Headers */,
+				FAB975292EDF0D5C0FF4494C84804EA2 /* Sources */,
+				70A5F9A1313BAAC3AE8120CA3BA092E5 /* Frameworks */,
+				EC5221EA1F4D74DDDC7385ADFC67173E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87B8A5055EDBD3C268978DB6175980C2 /* PBXTargetDependency */,
+			);
+			name = "Pods-BetaDataSDK_Tests";
+			productName = "Pods-BetaDataSDK_Tests";
+			productReference = EAC166BAB8112122F3D0D7E82290FE33 /* Pods_BetaDataSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D547E41EE890099209D3C10C7E11440A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB6547C12982E31B6AA258C02C6FDEDB /* BetaDataSDK */,
+				E31FBB4520A17B2AFD7E71968986C0E3 /* Pods-BetaDataSDK_Example */,
+				E4B3157A027966D762F407B0CA28D0A3 /* Pods-BetaDataSDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		663EE04927ED81DED1DDAED665927C78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADD937359A54B08F52DB192F77DDBE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA90460D212F545FAAF1D80480FA204 /* BetaDataSDK.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5221EA1F4D74DDDC7385ADFC67173E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A305F4B1E955FF32EC5C58E8A4AEAD3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2065720A2077004FA4E4D83E6D01F714 /* AutoTrackUtils.m in Sources */,
+				2B088FC458DD7ABDDC3C88108641AE23 /* BetaDataExceptionHandler.m in Sources */,
+				C8AEBDA1ADDB18F3C5EAC16EC725BFE4 /* BetaDataSDK-dummy.m in Sources */,
+				950627C4FD5743EA7FF577EBDEA5E590 /* BetaDataSDK.m in Sources */,
+				0EA222B858F6E9D460A077B05BF9EB9D /* BTAbstractDesignerMessage.m in Sources */,
+				F13D0E83FAF6C7A95D38DC1A3BCDCAB3 /* BTAbstractHeatMapMessage.m in Sources */,
+				C824A8C985A232BE300C58C26ED344E6 /* BTAlertController.m in Sources */,
+				1059A2E212A2670F19638856E66494C2 /* BTAppExtensionDataManager.m in Sources */,
+				A519A893E801516CAF7BE9C339F96672 /* BTApplicationStateSerializer.m in Sources */,
+				CD33765A9EFCB2D9E367A102747F8305 /* BTClassDescription.m in Sources */,
+				A3F97977B516E8D6ABE0197719055D48 /* BTCommonUtility.m in Sources */,
+				59821EF0882953EB5B3CE1CE65A83358 /* BTConstants.m in Sources */,
+				5F0B11D311257000B0485C8CAD8E777B /* BTDeviceOrientationManager.m in Sources */,
+				7D75A0470609753E7C5D7C8DAEE029D0 /* BTEnumDescription.m in Sources */,
+				BB26F386349AE4EF94CB6639A248E31B /* BTKeyChainItemWrapper.m in Sources */,
+				A44B54A1F852A694EB97AEDA468C31AD /* BTLocationManager.m in Sources */,
+				33B46AA261056B123D4E7597261735E1 /* BTLogger.m in Sources */,
+				78428EB41E2ECE82F3A26766124AE5AF /* BTObjectIdentityProvider.m in Sources */,
+				75CF5AA5063B051CA9016F20784509E0 /* BTObjectSelector.m in Sources */,
+				3BC792EFFA01F72AC9A2901E0A7EAA68 /* BTObjectSerializer.m in Sources */,
+				8D53BD57E0F0A4E1245105C46B8FA66B /* BTObjectSerializerConfig.m in Sources */,
+				CF15B4EB3528D3041D8788261BB06F46 /* BTObjectSerializerContext.m in Sources */,
+				A1974819FF9D4B60CF6C82D62D68975C /* BTPropertyDescription.m in Sources */,
+				0B2E630731EB11A582BCB74B83CB2265 /* BTReachability.m in Sources */,
+				A89F5B69CF81C0DD715EB208AB93A61E /* BTServerUrl.m in Sources */,
+				7A8E1D6E7ADC7DF4155CD7875ADEB2B7 /* BTSwizzler.m in Sources */,
+				C649FF4DFD1FF04306F89478CA374F49 /* BTTypeDescription.m in Sources */,
+				E482214D70D995B2CACC379F5C4185E8 /* BTUserConstants.m in Sources */,
+				29634361F6D5F7994692572C5AA2C4FB /* BTValueTransformers.m in Sources */,
+				F125AA28444F9FDD328B2448E84F56F1 /* JSONUtil.m in Sources */,
+				55A96AFC839888523CC793F18A726B58 /* MessageQueueBySqlite.m in Sources */,
+				C9AD8B7C217BADB4DDF73C5A11A652D9 /* NSData+BTCommon.m in Sources */,
+				843C1F8E31E2FA345ED37420C4A5A450 /* NSData+GZIP.m in Sources */,
+				BE2073E3C239B36624C0C081B0E6C6E8 /* NSInvocation+BTHelpers.m in Sources */,
+				F498C55191BE43F96C92FFD289123C79 /* NSObject+BetaDataDelegate.m in Sources */,
+				74F8F5DA8163D1DA1436AB966D3B8C05 /* NSObject+BTSwizzle.m in Sources */,
+				1EC9C8A4FA89AB731F861FBCB847FCC9 /* NSString+BTCommon.m in Sources */,
+				8870F9C33C3EAB95C0A5CEEF902C9C99 /* NSThread+BTHelpers.m in Sources */,
+				77205508414F012C3B94A85FF0F2D09F /* UIApplication+AutoTrack.m in Sources */,
+				3E136A4AD75C619B8E3040AA9CA45B6A /* UIDevice+BTCommon.m in Sources */,
+				6FBE66561041ACB90A400B5E5B659A25 /* UIGestureRecognizer+AutoTrack.m in Sources */,
+				82A004BC10797543DF65CF5DD960BDE4 /* UIImage+BetaData.m in Sources */,
+				70A6D60DE51D6C060AEE136368C3D8F0 /* UIView+AutoTrack.m in Sources */,
+				ABC6FFFD372A6E6BE8373FCBC5F92B6D /* UIView+BetaData.m in Sources */,
+				5F9775B11A607586380FAD1FF3EB0246 /* UIView+BTHelpers.m in Sources */,
+				ED175804DF31C2EA6C87655B02910E21 /* UIViewController+AutoTrack.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3CEFF40D2F23FD96EC17133C070B184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C7C145D6FBD695718A4464C6A13CB1 /* Pods-BetaDataSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB975292EDF0D5C0FF4494C84804EA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6CECB3F71C6DDE93A08B3B3A9F6B74 /* Pods-BetaDataSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87B8A5055EDBD3C268978DB6175980C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BetaDataSDK_Example";
+			target = E31FBB4520A17B2AFD7E71968986C0E3 /* Pods-BetaDataSDK_Example */;
+			targetProxy = C768AE903E45283052B3CECE5490ABE5 /* PBXContainerItemProxy */;
+		};
+		A6FB1248BD4B5ACCDBA5D398A79B7E7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BetaDataSDK;
+			target = BB6547C12982E31B6AA258C02C6FDEDB /* BetaDataSDK */;
+			targetProxy = 7EEE434F416652D2F784ACBCF1D4E38B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07AAA8234FB06C4E39F44CC2A8858B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE2DAF527CF3AEBC659EA7AE39B9448 /* BetaDataSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BetaDataSDK/BetaDataSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BetaDataSDK/BetaDataSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BetaDataSDK/BetaDataSDK.modulemap";
+				PRODUCT_MODULE_NAME = BetaDataSDK;
+				PRODUCT_NAME = BetaDataSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		29E5BE0B11E93FEEC27716A25C0D2B90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E57DF3F7A858E143BD28FEDCAE9F438 /* Pods-BetaDataSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BetaDataSDK_Example/Pods-BetaDataSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BetaDataSDK_Example/Pods-BetaDataSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		302E49B52B12876386F57BEF8EEB0DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D53CAFA5BF0C0FD17584FEA245CD2920 /* Pods-BetaDataSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BetaDataSDK_Tests/Pods-BetaDataSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BetaDataSDK_Tests/Pods-BetaDataSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		445587AA5C5CF97FCAA13508BCB3D946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D72A565359796E0AF5CB28F26A9C6C5 /* Pods-BetaDataSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BetaDataSDK_Example/Pods-BetaDataSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BetaDataSDK_Example/Pods-BetaDataSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4A4B07F72EC15BFE7D9594C19FBDC38A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C77DB68C7DCB225D9B75454B69CC312 /* Pods-BetaDataSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BetaDataSDK_Tests/Pods-BetaDataSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BetaDataSDK_Tests/Pods-BetaDataSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EF9A0E7C02D46CE2AB2935D8077786C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ADF6B095CB2A4A4C0E8FCED843A2764 /* BetaDataSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BetaDataSDK/BetaDataSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BetaDataSDK/BetaDataSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BetaDataSDK/BetaDataSDK.modulemap";
+				PRODUCT_MODULE_NAME = BetaDataSDK;
+				PRODUCT_NAME = BetaDataSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05C0FC9DF23664F3DD6FC293760293F5 /* Build configuration list for PBXNativeTarget "Pods-BetaDataSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29E5BE0B11E93FEEC27716A25C0D2B90 /* Debug */,
+				445587AA5C5CF97FCAA13508BCB3D946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F1FDD5BF7ACE2D99264AA812E592CE8 /* Build configuration list for PBXNativeTarget "BetaDataSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07AAA8234FB06C4E39F44CC2A8858B68 /* Debug */,
+				EF9A0E7C02D46CE2AB2935D8077786C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FF542FDECD85BFFFBFE11FB9699F5A1 /* Build configuration list for PBXNativeTarget "Pods-BetaDataSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				302E49B52B12876386F57BEF8EEB0DE9 /* Debug */,
+				4A4B07F72EC15BFE7D9594C19FBDC38A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
