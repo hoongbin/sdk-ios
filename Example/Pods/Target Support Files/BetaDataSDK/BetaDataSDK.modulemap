@@ -1,0 +1,6 @@
+framework module BetaDataSDK {
+  umbrella header "BetaDataSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

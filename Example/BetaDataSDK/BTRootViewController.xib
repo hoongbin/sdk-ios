@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BTRootViewController">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="7Gg-vb-J29"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rif-em-yYr">
+                    <rect key="frame" x="176" y="84" width="62" height="30"/>
+                    <state key="normal" title="进入页面"/>
+                    <connections>
+                        <action selector="enterBtnAction" destination="-1" eventType="touchUpInside" id="D2F-Gw-dgx"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yBT-T8-LAT">
+                    <rect key="frame" x="191.5" y="144" width="31" height="30"/>
+                    <state key="normal" title="登录"/>
+                    <connections>
+                        <action selector="loginAction" destination="-1" eventType="touchUpInside" id="Hwx-TG-xjE"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UIq-QH-Avp">
+                    <rect key="frame" x="191.5" y="204" width="31" height="30"/>
+                    <state key="normal" title="注销"/>
+                    <connections>
+                        <action selector="logoutAction" destination="-1" eventType="touchUpInside" id="She-11-nAx"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="yBT-T8-LAT" firstAttribute="top" secondItem="rif-em-yYr" secondAttribute="bottom" constant="30" id="6Gk-v1-b0z"/>
+                <constraint firstItem="UIq-QH-Avp" firstAttribute="top" secondItem="yBT-T8-LAT" secondAttribute="bottom" constant="30" id="Mtv-3O-9WG"/>
+                <constraint firstItem="UIq-QH-Avp" firstAttribute="centerX" secondItem="rif-em-yYr" secondAttribute="centerX" id="NWu-9F-3uw"/>
+                <constraint firstItem="rif-em-yYr" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="40" id="fFS-gk-ca1"/>
+                <constraint firstItem="yBT-T8-LAT" firstAttribute="centerX" secondItem="rif-em-yYr" secondAttribute="centerX" id="gHD-Wb-klo"/>
+                <constraint firstItem="rif-em-yYr" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="u7F-0l-HdS"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+        </view>
+    </objects>
+</document>
