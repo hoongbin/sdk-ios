@@ -50,10 +50,10 @@
 }
 
 - (void)initBetaDataWithLaunchOptions:(NSDictionary *)launchOptions {
-    NSString *appID = @"1347736735";
-    NSString *appSecret = @"098f6bcd4621d373cade4e832627b4f6";
+    NSString *appID = @"1234567";
+    NSString *appSecret = @"098f6acdb621b373cade4eg32627b4f6";
     
-    BTConfigOptions *options = [[BTConfigOptions alloc] initWithServerURL:@"http://t.api.betadata.mocaapp.cn/tracks" appID:appID secret:appSecret launchOptions:launchOptions];
+    BTConfigOptions *options = [[BTConfigOptions alloc] initWithServerURL:@"https://betadata.io/tracks" appID:appID secret:appSecret launchOptions:launchOptions];
     [BetaDataSDK sharedInstanceWithConfig:options];
     
     [[BetaDataSDK sharedInstance] enableLog:true];
@@ -64,7 +64,7 @@
     
     [[BetaDataSDK sharedInstance] trackViewScreen:_window.rootViewController];
     
-    [[BetaDataSDK sharedInstance] set:@{ @"name": @"周康", @"age": @(1) }];
+    [[BetaDataSDK sharedInstance] set:@{ @"name": @"张三", @"age": @(1) }];
     
     // 打开自动采集, 并指定追踪哪些 AutoTrack 事件
     [[BetaDataSDK sharedInstance] enableAutoTrack:BetaDataEventTypeAppStart|
