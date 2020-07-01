@@ -32,7 +32,7 @@
 }
 
 - (IBAction)loginAction {
-    [[BetaDataSDK sharedInstance] login:@"zk_10086"];
+    [[BetaDataSDK sharedInstance] login:@"rc_10086"];
 }
 
 - (IBAction)logoutAction {
