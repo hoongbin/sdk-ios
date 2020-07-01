@@ -1,0 +1,16 @@
+PODS:
+  - BetaDataSDK (1.2.17)
+
+DEPENDENCIES:
+  - BetaDataSDK (from `../`)
+
+EXTERNAL SOURCES:
+  BetaDataSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BetaDataSDK: 8cfab1c4f12f79323ac2cfe49d5729558122278b
+
+PODFILE CHECKSUM: def73eb068edba8244c5ab0e6fae3a80bc069eae
+
+COCOAPODS: 1.9.1
