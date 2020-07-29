@@ -96,6 +96,10 @@ extern NSString * const BT_PROFILE_PROPERTY_GENDER;
 
 #pragma mark - pay
 extern NSString * const BT_EVENT_PAYMENT;
+extern NSString * const BT_PAYMENT_PROPERTY_GOODS_TYPE;
+extern NSString * const BT_PAYMENT_PROPERTY_TRADE_NO;
+extern NSString * const BT_PAYMENT_PROPERTY_CHANNEL;
+extern NSString * const BT_PAYMENT_PROPERTY_AMOUNT;
 
 #pragma mark - NSUserDefaults
 extern NSString * const BT_SDK_TRACK_CONFIG;
