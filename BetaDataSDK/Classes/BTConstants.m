@@ -94,6 +94,10 @@ NSString * const BT_PROFILE_PROPERTY_GENDER = @"_gender";
 
 #pragma mark - pay
 NSString * const BT_EVENT_PAYMENT = @"_app_payment";
+NSString * const BT_PAYMENT_PROPERTY_GOODS_TYPE = @"_payment_goods_type";
+NSString * const BT_PAYMENT_PROPERTY_TRADE_NO   = @"_payment_trade_no";
+NSString * const BT_PAYMENT_PROPERTY_CHANNEL    = @"_payment_channel";
+NSString * const BT_PAYMENT_PROPERTY_AMOUNT     = @"_payment_amount";
 
 #pragma mark - NSUserDefaults
 NSString * const BT_SDK_TRACK_CONFIG = @"SASDKConfig";

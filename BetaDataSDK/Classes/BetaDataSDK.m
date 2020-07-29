@@ -50,7 +50,7 @@
 #import "UIView+BetaData.h"
 #import <WebKit/WebKit.h>
 
-#define VERSION @"1.2.21"
+#define VERSION @"1.2.22"
 
 static NSUInteger const SA_PROPERTY_LENGTH_LIMITATION = 8191;
 
