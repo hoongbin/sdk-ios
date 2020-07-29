@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BetaDataSDK'
-  s.version          = '1.2.22'
+  s.version          = '1.2.23'
   s.summary          = 'The official iOS SDK for Analytics.'
 
 # This description is used to generate tags and improve search results.
